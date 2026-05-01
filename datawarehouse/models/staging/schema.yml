@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: postgres
+    schema: public
+    tables: 
+      
+    - name: commodities
+      description: "Tabela que contém dados históricos de commodities"
+      colums:
+        - name: Date
+          description: "Data de observação"
+        - name: Close
+          description: "Preço de fechamento da commodity"
+        - name: symbol
+          description: "Simbolo da commodity"
+
+
+
